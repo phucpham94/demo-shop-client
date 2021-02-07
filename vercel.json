@@ -1,0 +1,8 @@
+{
+  "build": {
+    "env": {
+      "NEXT_PUBLIC_STRIPE_PUBLIC_KEY": "public_key_here",
+      "NEXT_PUBLIC_GRAPHQL_API_ENDPOINT": "https://shop-api-graphql.herokuapp.com/shop/graphql"
+    }
+  }
+}
