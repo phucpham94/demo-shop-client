@@ -1,0 +1,13 @@
+stages:
+  - release-now
+
+release-now:
+  stage: release-now
+  image: node
+  only:
+    - master
+  before_script:
+    - yarn global add now
+  script:
+    - yarn
+    - now  --token $NOW_TOKEN --confirm
